@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-color: #f6f7fa;
+}
+
+@media (min-width: 1200px) {
+.container {
+    width: 1230px;
+    padding: 50px;
+    align-items: center;
+}
+}
+
+section {
+    margin-top: 0;
+}
+
+#presentation {
+    background: url(images/fond\ section\ 1.png) no-repeat; 
+    background-size: 100%;
+    color: #fff;
+    margin-top: 0px;
+}
+#presentation h1 {
+    font-size: 3rem;
+    font-weight: 100;
+
+}
+#presentation p {
+    font-size: 13px;
+}
+
+#presentation .title {
+   position: relative;
+   margin-top: 30%;
+}
+
+#Description p {
+    color: #959595;
+}
+#big_picture {
+    background-image: url(images/Rectangle\ 3.png); 
+    color: #fff;
+    height: 872px;
+}
+#colored {
+    background-color: #82ca9c;
+    color: #fff;
+    height: 550px;
+}
+#Details {
+    height: 525px;
+}
+
+#pricing {
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    background-color: #192431;
+    color: #fff;
+    height: 610px;
+    text-decoration: none;
+}
